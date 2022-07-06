@@ -1,4 +1,4 @@
-# comBOT.ai
+# combat.ai
 
 # Purpose
 Given a video of two people sparring or one person training, this application will
