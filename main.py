@@ -74,8 +74,6 @@ with mp_pose.Pose(min_detection_confidence=0.3, min_tracking_confidence=0.3) as 
             cv2.rectangle(image, (x1, y1),(x2,y2), color, 2)
             cv2.putText(image, name, (x1, y1-10), cv2.FONT_HERSHEY_DUPLEX, 0.9, color, 2) 
 
-
-
             # Display new image
             cv2.imshow('Image', image) 
         
