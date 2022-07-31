@@ -1,9 +1,11 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+#CLIENT IGNORE START
+
 # dependencies
 client/node_modules
-/.pnp
-.pnp.js
+client/.pnp
+client.pnp.js
 
 # testing
 /coverage
@@ -21,3 +23,11 @@ client/node_modules
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#CLIENT IGNORE END
+
+#ML IGNORE START
+
+ml/videos
+
+#ML IGNORE END
