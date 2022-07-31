@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'BoxingTexture';
+    src:  url('assets/fonts/HeavyBoxing\ Texture.ttf') format('truetype'),
+          url('assets/fonts/HeavyBoxing\ Texture.otf') format('opentype');
+}
+@font-face {
+    font-family: 'BoxingEffects';
+    src:  url('assets/fonts/HeavyBoxing\ Effects.ttf') format('truetype'),
+          url('assets/fonts/HeavyBoxing\ Effects.otf') format('opentype');
+}
+@font-face {
+    font-family: 'BoxingFull';
+    src:  url('assets/fonts/HeavyBoxing\ Full.ttf') format('truetype'),
+          url('assets/fonts/HeavyBoxing\ Full.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'BoxingRegular';
+    src:  url('assets/fonts/HeavyBoxing\ Regular.ttf') format('truetype'),
+          url('assets/fonts/HeavyBoxing\ Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'BoxingScript';
+    src:  url('assets/fonts/HeavyBoxing\ Script.ttf') format('truetype'),
+          url('assets/fonts/HeavyBoxing\ Script.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'BoxingShadow';
+    src:  url('assets/fonts/HeavyBoxing\ Shadow.ttf') format('truetype'),
+          url('assets/fonts/HeavyBoxing\ Shadow.otf') format('opentype');
+}
+
+
+body {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+body{
+    background-color: #ef5350 ;
+    color: white;
+    caret-color: white !important;
+    
+}
+
+.customNav{
+    font-family: 'BoxingRegular';
+    float: none !important;
+}
+.texture{
+    z-index: 0 !important;
+    font-family: 'BoxingTexture';
+    /* margin-top: 540px; */
+    /* margin-left: 750px; */
+    /* margin-right: 750px; */
+    /* position: absolute; */
+    color: whitesmoke !important;
+    text-align: justify;
+}
+.title{
+    font-family: 'BoxingFull';
+}
+.subtitleButton{
+    text-transform: none !important;
+    border-radius: 20px;
+    font-family: 'BoxingScript';
+    font-size: 30px !important;
+    height: 60px !important;
+    background-color: #ef5350 !important;
+    z-index: 10 !important;
+    transition: transform .2s; /* Animation */
+}
+
+
+.subtitleButton:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.subtitle{
+    font-family: 'BoxingScript' !important;
+}
+.above{
+    height: 25vh;
+}
+.customNavItem{
+    transition: transform .2s; /* Animation */
+}
+.customNavItem:hover{
+    background-color: #ef5350;
+    transform: translateY(5px);
+}
+
+
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30vw;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px) ; }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
