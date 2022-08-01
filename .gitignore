@@ -29,5 +29,6 @@ yarn-error.log*
 #ML IGNORE START
 
 ml/videos
+ml/venv
 
 #ML IGNORE END
