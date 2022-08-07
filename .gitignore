@@ -31,5 +31,6 @@ yarn-error.log*
 ml/videos
 ml/venv
 ml/Logs
+ml/training_data_manip
 
 #ML IGNORE END
