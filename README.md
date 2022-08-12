@@ -1,4 +1,4 @@
-# Combat.ai
+# Punch Quest
 A fitness application for traditional & thai boxing that helps individuals work on their punching combinations and body movement.
 
 ## Contributers
