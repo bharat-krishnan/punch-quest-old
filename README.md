@@ -4,6 +4,7 @@ A fitness application for traditional & thai boxing that helps individuals work 
 ## Contributers
 Bharat Krishnan
 Jai Narayanan
+Austin Brown
 
 ## Overview
 This application utilizes real-time action-recognition.  It does this through the use of 3D pose estimation, a methodology by which a computer can infer the 3D coordinates of 32 key joints from a single frame.  
@@ -21,7 +22,7 @@ Long term, we hope to have a premium accounts with the following features below:
 > We also will have customizable modules where users can add their own combinations and how many times they want to complete them.
 
 ## Context
-We (Bharat and Jai) are both majoring in Computer Science but are also practitioners of Thai Boxing.  We have realized that when training, its not always a given that you have a partner to train with, and training alone is not very constructive.  You have nobody to give you feedback, you have no one to hold you accountable, and you dont have a regimented schedule.  Most existing boxing apps only attempt to solve the last problem, but because they are not interactive, users are often not sure if they are moving correctly and lose motivation from seeing them all the way through.  We hope that our application can help inviduals engage in solo boxing training to the fullest, as their each and every movement is recongized by the application and acknowledged.  
+We (Bharat, Jai, and Austin) are all majoring in Computer Science but  also practitioners of Thai Boxing.  We have realized that when training, its not always a given that you have a partner to train with, and training alone is not very constructive.  You have nobody to give you feedback, you have no one to hold you accountable, and you dont have a regimented schedule.  Most existing boxing apps only attempt to solve the last problem, but because they are not interactive, users are often not sure if they are moving correctly and lose motivation from seeing them all the way through.  We hope that our application can help inviduals engage in solo boxing training to the fullest, as their each and every movement is recongized by the application and acknowledged.  
 
 ## Non-goals
 As of now, some of our non-goals include
